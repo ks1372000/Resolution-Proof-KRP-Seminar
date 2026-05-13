@@ -7,6 +7,7 @@ We need to install sympy in order to be able to use it. The code was tested on s
 # How to use it
 - The program takes two inputs, premise(formulas separated by commas) and a conclusion(single formula). We need to use | for disjunctions, & for conjunctions, ~ for negations, and >> for implications for any formula in either of the inputs.
 - Variable names can only begin with letters but can contain underscores and numerals but no spaces in between
+- Conclusion Cannot be Empty
 # Usage Example
 Example input: Premise: A >> B, A >> C, A >> D Conclusion: A>> D
 Example Output for Proof:
