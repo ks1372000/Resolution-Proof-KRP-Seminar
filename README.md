@@ -11,10 +11,10 @@ We need to install sympy in order to be able to use it. The code was tested on s
 Example input: Premise: A >> B, A >> C, A >> D Conclusion: A>> D
 Example Output for Proof:
 -- Proof --
-  Premise : (~D)
-  Premise : (~C v D)
-  Resolving  (~D)  and  (~C v D)  on  D  to get  (~C)
-  Premise : (~A v C)
-  Premise : (A)
-  Resolving  (~A v C)  and  (A)  on  A  to get  (C)
-  Resolving  (~C)  and  (C)  on  C  to get  []
+-   Premise : (~D)
+-   Premise : (~C v D)
+-   Resolving  (~D)  and  (~C v D)  on  D  to get  (~C)
+-   Premise : (~A v C)
+-   Premise : (A)
+-   Resolving  (~A v C)  and  (A)  on  A  to get  (C)
+-   Resolving  (~C)  and  (C)  on  C  to get  []
