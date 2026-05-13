@@ -2,7 +2,7 @@
 A proof generator for propositional formulas using Resolution Calculus as a part of coursework for KRP seminar, spring 2026
 # Requirements
 We need to install sympy in order to be able to use it. The code was tested on sympy 1.14.0 & python 3.12.13. We can install sympy by:
-'''pip install sympy'''
+```pip install sympy```
 
 # How to use it
 - The program takes two inputs, premise(formulas separated by commas) and a conclusion(single formula). We need to use | for disjunctions, & for conjunctions, ~ for negations, and >> for implications for any formula in either of the inputs.
