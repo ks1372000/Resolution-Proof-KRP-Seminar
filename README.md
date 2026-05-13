@@ -1,5 +1,5 @@
 # Resolution-Proof-KRP-Seminar
-A proof generator for propositional formulas using Resolution Calculus as a part of coursework for KRP seminar, spring 2026
+A proof generator for propositional formulas using Resolution Calculus as a part of coursework for Knowledge, Reasoning and Planning seminar, spring 2026
 # Requirements
 We need to install sympy in order to be able to use it. The code was tested on sympy 1.14.0 & python 3.12.13. We can install sympy by:
 ```pip install sympy```
