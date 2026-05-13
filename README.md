@@ -11,7 +11,7 @@ We need to install sympy in order to be able to use it. The code was tested on s
 # Usage Example
 Example input: Premise: A >> B, A >> C, A >> D Conclusion: A>> D
 Example Output for Proof:
--- Proof --
+- -- Proof --
 -   Premise : (~D)
 -   Premise : (~C v D)
 -   Resolving  (~D)  and  (~C v D)  on  D  to get  (~C)
