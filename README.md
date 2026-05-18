@@ -21,5 +21,5 @@ Example Output for Proof:
 -   Resolving  (~C)  and  (C)  on  C  to get  []
 
 # AI Usage
-- Used to handle the edge case where some clauses can have same propositional variable with multiple literals and are tautology and need to be disarded. Concerns the ```clauses_from_formula``` function and more specifically, lines 38-64
+- Used to handle the edge case where some clauses can have same propositional variable with complimentary literals and are tautology and need to be disarded. Concerns the ```clauses_from_formula``` function and more specifically, lines 38-64
 - Line 267 to make sure empty premise case is handled by adding ```if p.strip()``` filter
